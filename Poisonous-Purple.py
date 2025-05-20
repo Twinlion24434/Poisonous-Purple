@@ -92,9 +92,9 @@ def print_purple_centered_art():
 Birruh Bidam Nafdika  Yaa  Aqsa       
 ||============================ 𒈞 By Khanza 𒈞 ===========================||                                                          
 ''' 
-    purple_art2 = f"{Fore.MAGENTA}{art2}{Style.RESET_ALL}"
+    purple_art2 = f"\033[95m{art2}\033[0m"{art2}{Style.RESET_ALL}"
     print(purple_art2.center(80))
-    print(Fore.MAGENTA + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
+    print(Fore.PURPLE + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
     print_purple_centered_art()
 def menu():
