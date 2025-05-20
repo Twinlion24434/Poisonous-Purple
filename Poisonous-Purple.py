@@ -92,13 +92,13 @@ def print_purple_centered_art():
 Birruh Bidam Nafdika  Yaa  Aqsa       
 ||============================ 𒈞 By Khanza 𒈞 ===========================||                                                          
 ''' 
-    purple_art2 = f"{Fore.YELLOW}{art2}{Style.RESET_ALL}"
+    purple_art2 = f"{Fore.PURPLE}{art2}{Style.RESET_ALL}"
     print(purple_art2.center(80))
     print(Fore.PURPLE + Style.BRIGHT + "[Khanza's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
     print_purple_centered_art()
 def menu():
-   # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
+   # print(Style.BRIGHT + Fore.PURPLE + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.PURPLE + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
     print(Fore.WHITE + Style.BRIGHT + "——————————————————————————————————————————————————————————————————————")
     print(Fore.PURPLE + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
