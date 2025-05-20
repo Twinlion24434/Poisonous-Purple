@@ -7,7 +7,8 @@ import random
 import sys
 import requests
 import colorama
-from colorama import Fore, Style
+from colorama import Fore, Style,init
+init()
 import aiohttp
 import asyncio
 def DDoS():
@@ -95,10 +96,11 @@ def print_purple_centered_art():
 Birruh Bidam Nafdika  Yaa  Aqsa       
 ||============================ 𒈞 By Khanza 𒈞 ===========================||                                                          
 ''' 
-purple_art2 = f"\033[95m{art2}\033[0m"
+
+purple_art2 = f"{Fore.MAGENTA}{art2}{Style.RESET_ALL}"
 print(purple_art2.center(80))
-print("\033[95m\033[1m[Khanza's dedication and struggle for PALISAINE]\033[0m")
-  
+print(Fore.MAGENTA + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
+
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.PURPLE + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
