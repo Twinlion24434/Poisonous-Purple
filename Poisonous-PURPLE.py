@@ -98,9 +98,9 @@ Birruh Bidam Nafdika  Yaa  Aqsa
 ||============================ 𒈞 By Khanza 𒈞 ===========================||                                                          
 ''' 
 
-red_art2 = f"{Fore.MAGENTA}{art2}{Style.RESET_ALL}"
+red_art2 = f"{Fore.red}{art2}{Style.RESET_ALL}"
 print(red_art2.center(80))
-print(Fore.MAGENTA + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
+print(Fore.red + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
 
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
