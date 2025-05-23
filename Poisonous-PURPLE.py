@@ -97,9 +97,9 @@ def print_red_centered_art():
 Birruh Bidam Nafdika  Yaa  Aqsa       
 ||============================ 𒈞 By Khanza 𒈞 ===========================||                                                          
 ''' 
-print red_art = f"{Fore.RED}{art}{Style.RESET_ALL}" # Set the text color to red
+red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}" # Set the text color to red
 print(red_art2.center(80))
-print(Fore.MAGENTA + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
+print(Fore.RED + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.PURPLE + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
