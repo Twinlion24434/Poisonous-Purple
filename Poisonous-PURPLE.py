@@ -85,7 +85,7 @@ def print_red_centered_art():
                      ©© © ©      ©©        ©© ©         ©©     ©
                      °°          °°         °°          °°     °
                       °          °           °           °     ° '''
-    red_art = f"{Fore.BLUE}{art}{Style.RESET_ALL}"  # Set the text color to red
+    red_art = f"{Fore.RED}{art}{Style.RESET_ALL}"  # Set the text color to red
     print(red_art.center(80))  # Adjust the width (80 characters) to match your terminal size
     #red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"
     art2 = '''||================================================================||
@@ -99,7 +99,7 @@ Birruh Bidam Nafdika  Yaa  Aqsa
 ''' 
 
 art2 = "Poisonous Purple"  # Define art2
-red_art2 = f"{Fore.MAGENTA}{art2}{Style.RESET_ALL}"  # Use art2 with red color
+red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"  # Use art2 with red color
 print(red_art2.center(80))
 print(Fore.RED + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
 
