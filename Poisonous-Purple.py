@@ -84,9 +84,9 @@ def print_red_centered_art():
                      ©©          ©©      ©©     ©       ©©   © ©
                      ©© © ©      ©©        ©© ©         ©©     ©
                      °°          °°         °°          °°     °
+     
                       °          °           °           °     ° '''
-   red_art = f"{Fore.RED}{art}{Style.RESET_ALL}"
-print(red_art)
+   print red_art = f"{Fore.RED}{art}{Style.RESET_ALL}"  # Set the text color to red
     print(red_art.center(80))  # Adjust the width (80 characters) to match your terminal size
     #red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"
     art2 = '''||================================================================||
