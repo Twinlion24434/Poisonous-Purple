@@ -13,9 +13,9 @@ buka aplikasi termux ketikan perintah dibawah ini :
 
 ▪ pkg install git
 
-▪ git clone 
+▪ git clone https://github.com/Twinlion24434/Poisonous-Purple.git
 
-▪ cd Badai PoiSonous-Purple
+▪ cd Poisonous-Purple
 
 ▪ ls
 
