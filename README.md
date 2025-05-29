@@ -1,10 +1,11 @@
 DDOS (denial-of-service Attacks) adalah jenis serangan yang dilakukan dengan cara membanjiri lalu lintas jaringan internet pada server, sistem, atau jaringan.
 
 buka aplikasi termux ketikan perintah dibawah ini :
+▪ apt update && apt upgrade
 
 ▪ pkg install python
 
-▪ python -m pip install requests aiohttp
+▪ pkg install python2
 
 ▪ apt install dnsutils
 
@@ -12,9 +13,9 @@ buka aplikasi termux ketikan perintah dibawah ini :
 
 ▪ pkg install git
 
-▪ git clone https://github.com/Twinlion24434/Poisonous-Purple.git
+▪ git clone 
 
-▪ cd Poisonous-Purple
+▪ cd Badai PoiSonous-Purple
 
 ▪ ls
 
