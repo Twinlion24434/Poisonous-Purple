@@ -1,6 +1,7 @@
 DDOS (denial-of-service Attacks) adalah jenis serangan yang dilakukan dengan cara membanjiri lalu lintas jaringan internet pada server, sistem, atau jaringan.
 
 buka aplikasi termux ketikan perintah dibawah ini :
+
 ▪ apt update && apt upgrade
 
 ▪ pkg install python
