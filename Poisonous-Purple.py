@@ -103,14 +103,14 @@ print(red_art2.center(80))
 print(Fore.MAGENTA + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
 
 def menu():
-    print(Style.BRIGHT + Fore.PURPLE + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
+    print(Style.BRIGHT + Fore.MAGENTA + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
     print(Fore.YELLOW + Style.BRIGHT + "——————————————————————————————————————————————————————————————————————")
     print(Fore.RED + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
     print(Fore.RED + Style.BRIGHT + "1. DDos a website.  [1]")
     print(Fore.RED + Style.BRIGHT + "2. exit.            [2]")
     print("Enter your options .. [e.g 1,2]") 
     global usr
-    usr = input(Fore.RED + Style.BRIGHT + "<><><{======>> " )
+    usr = input(Fore.RED + Style.BRIGHT + "<><><{Porsounous ...======>> " )
     if usr == "1":
         DDoS()
     elif usr == "2":
