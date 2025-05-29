@@ -103,7 +103,7 @@ print(red_art2.center(80))
 print(Fore.MAGENTA + Style.BRIGHT + "[Khanza's dedication and struggle for PALISAINE]" + Style.RESET_ALL)
 
 def menu():
-    print(Style.BRIGHT + Fore.MAGENTA + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
+    print(Style.BRIGHT + Fore.MAGENTA + "[INFO!]" + Fore.MAGENTA + "Press CTRL + C and press enter to exit!!")
     print(Fore.YELLOW + Style.BRIGHT + "——————————————————————————————————————————————————————————————————————"+ Style.RESET_ALL)
     print(Fore.RED + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
     print(Fore.RED + Style.BRIGHT + "1. DDos a website.  [1]")
